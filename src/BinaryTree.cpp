@@ -1,6 +1,7 @@
 #include "BinaryTree.h"
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 // Constructor
 template <typename T>
