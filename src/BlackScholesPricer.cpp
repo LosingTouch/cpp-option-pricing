@@ -1,4 +1,7 @@
 #include "BlackScholesPricer.h"
+#define _USE_MATH_DEFINES
+#include <cmath>
+
 
 // Constructor
 BlackScholesPricer::BlackScholesPricer(Option* option, double asset_price, double interest_rate, double volatility){
