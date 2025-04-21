@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(option_pricing)
+file(GLOB SRC "src/*.cpp")
+include_directories(include)
+add_library(option_pricing STATIC ${SRC})
