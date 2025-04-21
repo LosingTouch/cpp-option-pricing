@@ -1,5 +1,5 @@
-#include "BlackScholesPricer.h"
 #define _USE_MATH_DEFINES
+#include "BlackScholesPricer.h"
 #include <cmath>
 
 
